@@ -1,2 +1,1 @@
-Unemployed Insurance Beneficiary Forecasting
 "Unemployed Insurance Beneficiary Forecasting" is a predictive analytics project aimed at anticipating the number of individuals who will apply for and receive unemployment insurance benefits over a given period. By analyzing historical data, economic indicators, demographic trends, and labor market dynamics, this project seeks to provide accurate forecasts to government agencies, policymakers, and insurance providers, enabling them to allocate resources effectively and plan for future demand.
