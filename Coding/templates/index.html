@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ACTUARIAL | Home</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+    }
+
+    .hero {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      color: #ccc;
+      margin-bottom: 2rem;
+    }
+
+    .dot {
+      color: #f9c62a;
+    }
+
+    .btn {
+      background-color: #f9c62a;
+      color: #000;
+      padding: 0.8em 2em;
+      border: none;
+      font-weight: bold;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #e6b800;
+    }
+
+    section {
+      padding: 4rem 2rem;
+      background-color: white;
+      color: #333;
+      text-align: center;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    section p {
+      max-width: 700px;
+      margin: 0 auto 1rem;
+    }
+
+    .contact-details {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .footer {
+      background-color: #111;
+      color: #ccc;
+      padding: 1rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1>Insurance Beneficiary<br>Forecasting<span class="dot">.</span></h1>
+    <p>Insurance for Life's Unexpected Chapters.</p>
+    <form action="{{ url_for('inspect') }}">
+      <button class="btn">Predict</button>
+    </form>
+  </div>
+
+  <!-- About Section -->
+  <section>
+    <h2>About</h2>
+    <p>We provide accurate forecasting for insurance beneficiary counts using advanced time series models. Our mission is to assist insurers in making data-driven decisions with clarity and confidence.</p>
+    <p>From data preprocessing to deployment, our process ensures quality predictions tailored for the insurance domain.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section>
+    <h2>Contact Us</h2>
+    <div class="contact-details">
+      <p><strong>Location:</strong> Survey No. 91, Technical Block, Hyderabad, India</p>
+      <p><strong>Email:</strong> info@actuarial.ai</p>
+      <p><strong>Phone:</strong> +91 6304320044</p>
+    </div>
+  </section>
+
+  <div class="footer">
+    &copy; 2025 ACTUARIAL. All rights reserved.
+  </div>
+
+</body>
+</html>
