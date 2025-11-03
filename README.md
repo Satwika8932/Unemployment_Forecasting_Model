@@ -90,7 +90,6 @@ Unemployment Forecasting Model is a data-driven web application (or command-line
 
 **Model Settings & Hyperparameters:**
 
-* Define in `config.yml` or `settings.py` (e.g., model type, hyperparameters, train/test split)
 * For LSTM: sequence length, number of layers, dropout rate
 * For ARIMA/Prophet: order (p,d,q), seasonal order
 
