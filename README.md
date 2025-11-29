@@ -59,7 +59,7 @@ Unemployment Forecasting Model is a data-driven web application (or command-line
 
    ```bash
    python -m venv venv  
-   source venv/bin/activate      # On Windows: venv\Scripts\activate  
+   venv\Scripts\activate      # On Linux: source venv/bin/activate  
    ```
 
 3. **Install dependencies**
