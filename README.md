@@ -93,6 +93,12 @@ Unemployment Forecasting Model is a data-driven web application (or command-line
 * For LSTM: sequence length, number of layers, dropout rate
 * For ARIMA/Prophet: order (p,d,q), seasonal order
 
+## License
+
+This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for details.
+
+© 2026 Eswar Vutukuri, Satwika Malla, Diptokrit Chowdhury, Himanshu Trivedi
+
 ## Acknowledgments
 
 Thanks to all the open-source libraries and frameworks:
